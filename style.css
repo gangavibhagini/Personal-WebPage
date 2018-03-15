@@ -1,0 +1,335 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+*{
+  text-decoration: none;
+}
+
+main{
+  padding-top:100px;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+    background-color: #DF0B90;
+    width: 100%;
+    height: 100px;
+}
+
+
+header .header-brand{
+  font-family:Handlee;
+  font-size:50px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin:0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+header nav ul{
+  display: block;
+  margin: 0 auto;
+  width:fit-content;
+}
+
+header nav ul li{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0px 16px;
+}
+
+header nav ul li a{
+  font-family: Handlee;
+  font-size:16px;
+  color: #111;
+  text-transform: uppercase;
+
+}
+
+.wrapper{
+  width:960px;
+  margin: 0 auto;
+}
+
+header .header-photos{
+  display:none;
+  font-family: Catamaran;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand{
+  margin: 31px 0;
+  text-align: left;
+  line-height: 38px;
+  padding: 0 20px 0 40px;
+  border-right: 3px solid #111;
+  float: left;
+  }
+  header nav ul{
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li a{
+
+    line-height: 60px;
+
+  }
+  header .header-photos{
+    display:block;
+    font-family: Handlee;
+    font-size:16px;
+    color: #111;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #111;
+    float:right;
+    margin-right:40px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+}
+
+/*INDEX*/
+
+.vertical-center{
+  display: : table-cell;
+  vertical-align:middle;
+}
+
+.index-banner p{
+  font-family: Handlee;
+  font-size:30px;
+  color: white;
+  line-height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  padding-top:30px;
+}
+
+.index-banner h2{
+  font-family: Handlee;
+  font-size:30px;
+  color: white;
+  line-height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  padding-top:200px;
+
+}
+
+.index-banner h1{
+  font-family: Catamaran;
+  font-size:45px;
+  color: white;
+  text-align: center;
+  padding-top:110px;
+}
+
+.index-banner h3{
+  font-family: Catamaran;
+  font-size:60px;
+  color: red;
+  text-align: center;
+}
+
+.index-links div{
+  margin:16px 16px 0px;
+  width:calc(100%-32px);
+  height: 100px;
+  background-color: #46F5FB;
+}
+.index-links div h3 {
+  font-family: Catamaran;
+  font-size:28px;
+  font-weight: 600;
+  line-height: 100px
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+/*FOOTER*/
+footer{
+  width: calc(100%-60px);
+  padding:40px 40px;
+  margin-top:1000px;
+  background-color: #111;
+  overflow:hidden
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+  display: block;
+  list-style: none;
+
+}
+footer ul li a{
+  font-family: Handlee;
+  font-size:24px;
+  color: #fff;
+  line-height: 40px;
+
+}
+
+
+
+.footer-sm{
+  width: 50px;
+  float: right;
+
+}
+
+.footer-sm img{
+  width: 100%;
+  margin-bottom:0px;
+
+}
+.gallery-box{
+   overflow:hidden;
+
+}
+
+.wrapper h1{
+  font-family: Handlee;
+  font-size:35px;
+  color: #4B5BFB;
+  padding-top:40px;
+
+}
+.img-single{
+  float: left;
+  margin: 5px 5px;
+  position: relative;
+  top:30px;
+}
+
+.img-single img{
+  width:100%;
+}
+
+@media only screen and (min-width: 1000px){
+
+  footer ul{
+    padding-right: 30px;
+  }
+
+
+  footer ul li p{
+  font-family: Catamaran;
+  font-size:24px;
+  color: white;
+  line-height: 40px;
+  text-transform: uppercase;
+
+}
+}
